@@ -8,7 +8,7 @@ You have a bunch of fresh ideas and you aspire to make them possible with the he
 ### I'm in!
 
 1. fork/clone this project
-2. visit the workshop Slack channel []() 
+2. visit the workshop Discord channel [Junction 21 Hackathon Huawei](https://discord.gg/PmdzQbWu) 
 3. look for the file with secrets ([direct link ]())
 4. unzip the file into the project's *android* directory
 5. start coding!
@@ -66,9 +66,9 @@ There are solutions.
 
 ### Starter projects for other platforms
 
-- for native Android: https://github.com/
+- for native Android: https://github.com/Huawei-Nordic/Junction2021_native
 
-- for Flutter: https://github.com/
+- for Flutter: https://github.com/Huawei-Nordic/junction2021_flutterx
 
   
 
