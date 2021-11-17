@@ -770,6 +770,11 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@hmscore/react-native-hms-ads@^13.4.46-300":
+  version "13.4.46-300"
+  resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-ads/-/react-native-hms-ads-13.4.46-300.tgz#27a2eea027fec02868b0ee2cee6f0ab36bd3e9c7"
+  integrity sha512-bhaYVPk1atQLjFOEOsP96prUA8KwNKVRlGzMkmrVDaJR175aGkuj/1Zj/flnilkzz+WB0ErJEG4HrSsTqrM/Tg==
+
 "@hmscore/react-native-hms-availability@^5.2.0-300":
   version "5.2.0-300"
   resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-availability/-/react-native-hms-availability-5.2.0-300.tgz#fe2cd36ba8fb3ac84fffd9ab59a0a90166f4ea07"
@@ -780,6 +785,11 @@
   resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-awareness/-/react-native-hms-awareness-1.0.8-301.tgz#527e5213a1d34d430525b1a334c4dbc235ec58c1"
   integrity sha512-I39uDEIsUCBtBlj+4ipzLYzN6UVSazSFWl40mMGzs7zGDzpW/3SB6Y+JKJOHedGwz31ee0VoQM4Fwo3Yn/6E9w==
 
+"@hmscore/react-native-hms-iap@^5.1.0-300":
+  version "5.1.0-300"
+  resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-iap/-/react-native-hms-iap-5.1.0-300.tgz#410b09e265b522f4075c92f247df7eea4dd7ea9f"
+  integrity sha512-3J9ML/u8WJImSEEjppXLMIFVC1n5yv2ft9AtpntIZY2qlE3fIL8mfoM5LtjbioajXzfL4uauoWMHVRj2l+YBUA==
+
 "@hmscore/react-native-hms-location@^5.1.0-303":
   version "5.1.0-303"
   resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-location/-/react-native-hms-location-5.1.0-303.tgz#549cc98e49f529a381c80fbffa5bd8da6b3b09f6"
@@ -789,6 +799,11 @@
   version "5.2.0-302"
   resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-map/-/react-native-hms-map-5.2.0-302.tgz#f29ee190752434a57776c2c3628c3f929f489cdb"
   integrity sha512-mhDdBh8+tunwnciMx45HsQd9mXG/WGeyEeoahH2vJejMXX38wDARm2rSefQ4kmlkkbb5NUUWcQ4qhFZmrPxrYw==
+
+"@hmscore/react-native-hms-ml@^2.0.5-301":
+  version "2.0.5-301"
+  resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-ml/-/react-native-hms-ml-2.0.5-301.tgz#0e965b9226a738a60f55983dbd486e9cff55274c"
+  integrity sha512-gTjRiLGXyjZ2cu8HWwgTkA/5SdH34qEbo7NWr7rXGQ6qhsInraOkqKgh7tWx/ltTb4Rbpg1dN7r+bXMQpBDIPA==
 
 "@hmscore/react-native-hms-push@^5.3.0-304":
   version "5.3.0-304"
