@@ -66,9 +66,11 @@ There are solutions.
 
 ### Starter projects for other platforms
 
-- for native Android: https://github.com/Huawei-Nordic/Junction2021_native
+- for Native Android: https://github.com/Huawei-Nordic/Junction2021_native
 
 - for Flutter: https://github.com/Huawei-Nordic/junction2021_flutterx
+- 
+- for Unity: https://github.com/DimitriUK/Junction-21-Huawei-Example
 
   
 
