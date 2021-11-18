@@ -60,7 +60,7 @@ There are solutions.
 
 1. If you're participating on-site, ask for a test device at the Huawei booth
 2. Download and temporary install HMS Core on your own Android device from [here](https://appgallery.cloud.huawei.com/appdl/C10132067)
-3. [Cloud Debugging](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/CloudDebugging-introduction) : this requires you to actually own/create a Huawei ID, but once that's done, you can just download the [HMS Toolkit Android Studio plugin](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/installation-0000001050145206) and access physical devices in the cloud
+3. [Cloud Debugging](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/CloudDebugging-introduction) : this requires you to actually own/create a Huawei Developer account, but once that's done, you can just download the [HMS Toolkit Android Studio plugin](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/installation-0000001050145206) and access physical devices in the cloud
 
 
 
