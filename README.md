@@ -17,7 +17,7 @@ You have a bunch of fresh ideas and you aspire to make them possible with the he
 
 ### What just happened? Am I really ready to go?
 
-Yes!! The starter project is a native Android skeleton app that:
+Yes!! The starter project is a React Native skeleton app that:
 
 - has the main HMS Kits added as dependencies 
 - has all relevant permissions added to the Android manifest
