@@ -1,4 +1,4 @@
-import HMSMap, { MapTypes } from "@hmscore/react-native-hms-map";
+import HMSMap, { HMSMarker, MapTypes } from "@hmscore/react-native-hms-map";
 import React from 'react';
 import { TopNavigation } from '@ui-kitten/components';
 import {
@@ -13,7 +13,23 @@ export const Home = () => (
       style={{ height: "100%" }}
       camera={{ target: { latitude: 49.05498690478469, longitude: 20.300363581972807 }, zoom: 11 }}
       zoomControlsEnabled={true}
-    />
+      myLocationEnabled={true}
+
+    >
+      <HMSMarker
+        coordinate={{ latitude: 49.05498690478469, longitude: 20.300363581972807 }}
+        title="Your position"
+      />
+      <HMSMarker
+        coordinate={{ latitude: 49.04998690478469, longitude: 20.305363581972807 }}
+        title="Your position"
+      />
+      <HMSMarker
+        coordinate={{ latitude: 49.05898690478469, longitude: 20.272363581972807 }}
+        title="Your position"
+      />
+      {/* Tu pôjde kód ktorý vypíše fetchnuté Boxy v radiusi r */}
+    </HMSMap>
 
   </SafeAreaView>
 )
