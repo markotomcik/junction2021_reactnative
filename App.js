@@ -17,13 +17,14 @@ import { ApplicationProvider, Layout, Text } from '@ui-kitten/components';
 import { HmsPushInstanceId } from "@hmscore/react-native-hms-push";
 import HMSAvailability, { ErrorCode } from '@hmscore/react-native-hms-availability';
 import { Home }  from './home/Home';
+import { AppNavigator } from './navigation/Drawer'
 import { default as theme } from './custom-theme.json';
 
 const App = () => {
   return (
     <ApplicationProvider {...eva} theme={{ ...theme, ...eva.dark}}>
       <StatusBar barStyle="dark-content" />
-      <Home />
+      <AppNavigator />
     </ApplicationProvider>
   );
 };
