@@ -1,41 +1,37 @@
 import React from 'react'
-import Home from '../home/Home'
+import { Home } from '../home/Home'
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
 import { IndexPath, Layout, Drawer, DrawerItem, Text, Icon } from '@ui-kitten/components';
 
 
 
 const { Navigator, Screen } = createDrawerNavigator();
 
-const Header = () => (
-  <Layout style={{ paddingTop: 60, paddingBottom: 20, paddingLeft: 20 }}>
-    <Text category='h1' style={{ fontSize: 30, fontFamily: 'serif', margin: 0, padding: 0 }}>coradesk</Text>
-  </Layout>
-);
 
 
-const DrawerContent = ({ navigation }) => {
+const DrawerContent = ({ navigation, state }) => {
   return (
     <Drawer
-      header={Header}
       selectedIndex={new IndexPath(state.index)}
-      onSelect={index => index.row !== state.routeNames.length && navigation.navigate(state.routeNames[index.row])}>
+      onSelect={index => navigation.navigate(state.routeNames[index.row])}>
       <DrawerItem title="Home" />
       <DrawerItem title="Rewards" />
     </Drawer>
   )
 }
 
-const Drawer = ({ navigation }) => {
+const DrawerNavigator = () => {
   return (
-    <Navigator
-      screenOptions={({ navigation }) => ({
-        headerShown: false,
-        gestureEnabled: true
-      })} drawerContent={props => <DrawerContent  />}
-    >
+    <Navigator drawerContent={props => <DrawerContent {...props}/>}>
       <Screen name = "Home" component={Home} />
       <Screen name = "Rewards" component={Home} />
     </Navigator>
   )
 }
+
+export const AppNavigator = () => (
+  <NavigationContainer>
+    <DrawerNavigator />
+  </NavigationContainer>
+);
