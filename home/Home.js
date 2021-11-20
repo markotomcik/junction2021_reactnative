@@ -10,6 +10,7 @@ export const Home = () => (
       mapType={MapTypes.NORMAL}
       style={{ height: "100%" }}
       camera={{ target: { latitude: 49.05498690478469, longitude: 20.300363581972807 }, zoom: 11 }}
+      zoomControlsEnabled={true}
     />
 
   </SafeAreaView>

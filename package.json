@@ -11,6 +11,7 @@
   "dependencies": {
     "@eva-design/eva": "^2.1.1",
     "@hmscore/react-native-hms-ads": "^13.4.46-300",
+    "@hmscore/react-native-hms-ar": "^2.15.0-4-01",
     "@hmscore/react-native-hms-availability": "^5.2.0-300",
     "@hmscore/react-native-hms-awareness": "^1.0.8-301",
     "@hmscore/react-native-hms-iap": "^5.1.0-300",
@@ -31,6 +32,7 @@
     "react-native-reanimated": "1.13.3",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.9.0",
+    "yarn": "^1.22.17",
     "react-native-svg": "^12.1.1"
   },
   "devDependencies": {

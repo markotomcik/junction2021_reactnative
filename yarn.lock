@@ -797,6 +797,11 @@
   resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-ads/-/react-native-hms-ads-13.4.46-300.tgz#27a2eea027fec02868b0ee2cee6f0ab36bd3e9c7"
   integrity sha512-bhaYVPk1atQLjFOEOsP96prUA8KwNKVRlGzMkmrVDaJR175aGkuj/1Zj/flnilkzz+WB0ErJEG4HrSsTqrM/Tg==
 
+"@hmscore/react-native-hms-ar@^2.15.0-4-01":
+  version "2.15.0-4-01"
+  resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-ar/-/react-native-hms-ar-2.15.0-4-01.tgz#eaa51aa642a1797f840cdf51b94228803d314313"
+  integrity sha512-qZeznPqxhhZ8mE8MXw8NSy9ynT8asUMi+9TcDLB0f0BVAKKfQyv6PmM/bKUs+2t9B+h2DhMOf64c1kX1aqY/Yg==
+
 "@hmscore/react-native-hms-availability@^5.2.0-300":
   version "5.2.0-300"
   resolved "https://registry.yarnpkg.com/@hmscore/react-native-hms-availability/-/react-native-hms-availability-5.2.0-300.tgz#fe2cd36ba8fb3ac84fffd9ab59a0a90166f4ea07"
@@ -7289,3 +7294,8 @@ yargs@^15.1.0, yargs@^15.3.1:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
+
+yarn@^1.22.17:
+  version "1.22.17"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.17.tgz#bf910747d22497b573131f7341c0e1d15c74036c"
+  integrity sha512-H0p241BXaH0UN9IeH//RT82tl5PfNraVpSpEoW+ET7lmopNC61eZ+A+IDvU8FM6Go5vx162SncDL8J1ZjRBriQ==
